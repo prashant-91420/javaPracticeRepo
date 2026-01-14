@@ -16,13 +16,8 @@ public class B {
 			temp = arr[sno];
 			arr[sno] = arr[eno];
 			arr[eno] = temp;
-			sno++;
-			eno--;
 		}
-		String str1 = new String(arr);
-			System.out.println(str1);
 		
 	}
-	
 
 }

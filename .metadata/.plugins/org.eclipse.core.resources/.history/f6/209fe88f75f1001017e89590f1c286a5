@@ -19,8 +19,10 @@ public class B {
 			sno++;
 			eno--;
 		}
-		String str1 = new String(arr);
-			System.out.println(str1);
+		
+		for(char res : arr) {
+			System.out.println(res);
+		}
 		
 	}
 	
